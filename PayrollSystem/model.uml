@@ -1,2 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_uSBTACDxEeewj72L3dK0TA" name="RootElement"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_uSBTACDxEeewj72L3dK0TA" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_lOyo0CQvEeeNH9b9OQSkMA" name="Contractual Employee"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_BqhpoCQwEeeNH9b9OQSkMA" name="Full time employee"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_eT_H8CQxEeeNH9b9OQSkMA" name="Payroll System (PS)">
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZxjekCQxEeeNH9b9OQSkMA" name="Web Access Subsystem (WAS)">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_6xFlQCQyEeeNH9b9OQSkMA" name="Leave balances"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_2XCb0CQyEeeNH9b9OQSkMA" name="Payment details"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_GMzaoCQzEeeNH9b9OQSkMA" name="Personal information"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_NbTosCQzEeeNH9b9OQSkMA" name="Update personal/payment information"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_tzR1kCQzEeeNH9b9OQSkMA" name="Payment method">
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tzR1kSQzEeeNH9b9OQSkMA" name="Payment method"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hmj94CQvEeeNH9b9OQSkMA" name="Contract Management System (CMS)">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Ayv3oCQxEeeNH9b9OQSkMA" name="Submit timesheets"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_J9RtgCQxEeeNH9b9OQSkMA" name="Chose payment information by postal mail or email"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_o2ekYCQzEeeNH9b9OQSkMA" name="Payment method">
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tJ79oCQzEeeNH9b9OQSkMA" name="Payment method"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_HD2z4CQyEeeNH9b9OQSkMA" name="Employee Management System (EMS)">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_q7TDMCQwEeeNH9b9OQSkMA" name="Employee information"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_ZF6rICQyEeeNH9b9OQSkMA" name="Payments"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_nzWI4CQyEeeNH9b9OQSkMA" name="Add/Delete employee"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_svwqcCQwEeeNH9b9OQSkMA" name="Manage/Record leave"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_8Yju0CQxEeeNH9b9OQSkMA" name="Personell Department"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5QnbkCQzEeeNH9b9OQSkMA" memberEnd="_5RbT4CQzEeeNH9b9OQSkMA _5RbT4SQzEeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5RHx4CQzEeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5RHx4SQzEeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5RbT4CQzEeeNH9b9OQSkMA" name="manage/record leave" type="_svwqcCQwEeeNH9b9OQSkMA" association="_5QnbkCQzEeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5RbT4SQzEeeNH9b9OQSkMA" name="personell department" type="_8Yju0CQxEeeNH9b9OQSkMA" association="_5QnbkCQzEeeNH9b9OQSkMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6OD7QCQzEeeNH9b9OQSkMA" memberEnd="_6OD7QyQzEeeNH9b9OQSkMA _6OD7RCQzEeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6OD7QSQzEeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6OD7QiQzEeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6OD7QyQzEeeNH9b9OQSkMA" name="employee information" type="_q7TDMCQwEeeNH9b9OQSkMA" association="_6OD7QCQzEeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6OD7RCQzEeeNH9b9OQSkMA" name="personell department" type="_8Yju0CQxEeeNH9b9OQSkMA" association="_6OD7QCQzEeeNH9b9OQSkMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6xk4ACQzEeeNH9b9OQSkMA" memberEnd="_6xk4AyQzEeeNH9b9OQSkMA _6xk4BCQzEeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6xk4ASQzEeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6xk4AiQzEeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6xk4AyQzEeeNH9b9OQSkMA" name="payments" type="_ZF6rICQyEeeNH9b9OQSkMA" association="_6xk4ACQzEeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6xk4BCQzEeeNH9b9OQSkMA" name="personell department" type="_8Yju0CQxEeeNH9b9OQSkMA" association="_6xk4ACQzEeeNH9b9OQSkMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7lRl0CQzEeeNH9b9OQSkMA" memberEnd="_7lRl0yQzEeeNH9b9OQSkMA _7lRl1CQzEeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7lRl0SQzEeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7lRl0iQzEeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7lRl0yQzEeeNH9b9OQSkMA" name="add/delete employee" type="_nzWI4CQyEeeNH9b9OQSkMA" association="_7lRl0CQzEeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7lRl1CQzEeeNH9b9OQSkMA" name="personell department" type="_8Yju0CQxEeeNH9b9OQSkMA" association="_7lRl0CQzEeeNH9b9OQSkMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_k7QPgCQ0EeeNH9b9OQSkMA" memberEnd="_k7QPgyQ0EeeNH9b9OQSkMA _k7Q2kCQ0EeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_k7QPgSQ0EeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k7QPgiQ0EeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_k7QPgyQ0EeeNH9b9OQSkMA" name="full time employee" type="_BqhpoCQwEeeNH9b9OQSkMA" association="_k7QPgCQ0EeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_k7Q2kCQ0EeeNH9b9OQSkMA" name="update personal/payment information" type="_NbTosCQzEeeNH9b9OQSkMA" association="_k7QPgCQ0EeeNH9b9OQSkMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_luuT0CQ0EeeNH9b9OQSkMA" memberEnd="_luuT0yQ0EeeNH9b9OQSkMA _luu64CQ0EeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_luuT0SQ0EeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_luuT0iQ0EeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_luuT0yQ0EeeNH9b9OQSkMA" name="full time employee" type="_BqhpoCQwEeeNH9b9OQSkMA" association="_luuT0CQ0EeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_luu64CQ0EeeNH9b9OQSkMA" name="payment details" type="_2XCb0CQyEeeNH9b9OQSkMA" association="_luuT0CQ0EeeNH9b9OQSkMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nENgECQ0EeeNH9b9OQSkMA" memberEnd="_nENgEyQ0EeeNH9b9OQSkMA _nENgFCQ0EeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nENgESQ0EeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nENgEiQ0EeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nENgEyQ0EeeNH9b9OQSkMA" name="full time employee" type="_BqhpoCQwEeeNH9b9OQSkMA" association="_nENgECQ0EeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nENgFCQ0EeeNH9b9OQSkMA" name="leave balances" type="_6xFlQCQyEeeNH9b9OQSkMA" association="_nENgECQ0EeeNH9b9OQSkMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nleaECQ0EeeNH9b9OQSkMA" memberEnd="_nleaEyQ0EeeNH9b9OQSkMA _nleaFCQ0EeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nleaESQ0EeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nleaEiQ0EeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nleaEyQ0EeeNH9b9OQSkMA" name="full time employee" type="_BqhpoCQwEeeNH9b9OQSkMA" association="_nleaECQ0EeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nleaFCQ0EeeNH9b9OQSkMA" name="personal information" type="_GMzaoCQzEeeNH9b9OQSkMA" association="_nleaECQ0EeeNH9b9OQSkMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oJ8ZECQ0EeeNH9b9OQSkMA" memberEnd="_oJ9nMCQ0EeeNH9b9OQSkMA _oJ9nMSQ0EeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oJ9AICQ0EeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oJ9AISQ0EeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oJ9nMCQ0EeeNH9b9OQSkMA" name="full time employee" type="_BqhpoCQwEeeNH9b9OQSkMA" association="_oJ8ZECQ0EeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oJ9nMSQ0EeeNH9b9OQSkMA" name="payment method" type="_tzR1kCQzEeeNH9b9OQSkMA" association="_oJ8ZECQ0EeeNH9b9OQSkMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rOFfgCQ0EeeNH9b9OQSkMA" memberEnd="_rOFfgyQ0EeeNH9b9OQSkMA _rOFfhCQ0EeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rOFfgSQ0EeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rOFfgiQ0EeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rOFfgyQ0EeeNH9b9OQSkMA" name="contractual employee" type="_lOyo0CQvEeeNH9b9OQSkMA" association="_rOFfgCQ0EeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rOFfhCQ0EeeNH9b9OQSkMA" name="payment method" type="_o2ekYCQzEeeNH9b9OQSkMA" association="_rOFfgCQ0EeeNH9b9OQSkMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rve8YCQ0EeeNH9b9OQSkMA" memberEnd="_rve8YyQ0EeeNH9b9OQSkMA _rvotYCQ0EeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rve8YSQ0EeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rve8YiQ0EeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rve8YyQ0EeeNH9b9OQSkMA" name="contractual employee" type="_lOyo0CQvEeeNH9b9OQSkMA" association="_rve8YCQ0EeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rvotYCQ0EeeNH9b9OQSkMA" name="submit timesheets" type="_Ayv3oCQxEeeNH9b9OQSkMA" association="_rve8YCQ0EeeNH9b9OQSkMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sXk3ICQ0EeeNH9b9OQSkMA" memberEnd="_sXk3IyQ0EeeNH9b9OQSkMA _sXk3JCQ0EeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sXk3ISQ0EeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sXk3IiQ0EeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sXk3IyQ0EeeNH9b9OQSkMA" name="contractual employee" type="_lOyo0CQvEeeNH9b9OQSkMA" association="_sXk3ICQ0EeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sXk3JCQ0EeeNH9b9OQSkMA" name="chose payment information by postal mail or email" type="_J9RtgCQxEeeNH9b9OQSkMA" association="_sXk3ICQ0EeeNH9b9OQSkMA"/>
+  </packagedElement>
+</uml:Model>
