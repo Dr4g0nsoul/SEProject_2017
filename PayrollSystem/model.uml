@@ -111,4 +111,39 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_sXk3IyQ0EeeNH9b9OQSkMA" name="contractual employee" type="_lOyo0CQvEeeNH9b9OQSkMA" association="_sXk3ICQ0EeeNH9b9OQSkMA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_sXk3JCQ0EeeNH9b9OQSkMA" name="chose payment information by postal mail or email" type="_J9RtgCQxEeeNH9b9OQSkMA" association="_sXk3ICQ0EeeNH9b9OQSkMA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_WNCSVCQ1EeeNH9b9OQSkMA" name="Payroll System (PS) - System perspective">
+    <packagedElement xmi:type="uml:Package" xmi:id="_WNCSVSQ1EeeNH9b9OQSkMA" name="Web Access Subsystem (WAS)">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_WNCSVyQ1EeeNH9b9OQSkMA" name="Payment details"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_WNCSWSQ1EeeNH9b9OQSkMA" name="Update personal/payment information"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_WNCSWiQ1EeeNH9b9OQSkMA" name="Payment method">
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_WNCSWyQ1EeeNH9b9OQSkMA" name="Payment method"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_0sPxICQ2EeeNH9b9OQSkMA" name="Calculate leave balance"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WNCSXCQ1EeeNH9b9OQSkMA" name="Contract Management System (CMS)">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_BRZJMCQ2EeeNH9b9OQSkMA" name="Verfy time sheets"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_MI8hkCQ2EeeNH9b9OQSkMA" name="Contract management"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_WNCSXyQ1EeeNH9b9OQSkMA" name="Store payment method">
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_WNCSYCQ1EeeNH9b9OQSkMA" name="Payment method"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WNCSYSQ1EeeNH9b9OQSkMA" name="Employee Management System (EMS)">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_WNCSYiQ1EeeNH9b9OQSkMA" name="Employee information"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_WNCSZCQ1EeeNH9b9OQSkMA" name="Add/Delete employee"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_WNCSZSQ1EeeNH9b9OQSkMA" name="Manage/Record leave"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_WNCSYyQ1EeeNH9b9OQSkMA" name="Pay loan on time"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_xeAI8CQ1EeeNH9b9OQSkMA" name="Maintain information"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3HlAkCQ1EeeNH9b9OQSkMA" name="Manage access"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_gVjk0CQ2EeeNH9b9OQSkMA" name="Store basic contract information"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_M1tEcCQ3EeeNH9b9OQSkMA" name="System"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Un7qoCQ3EeeNH9b9OQSkMA" name="UseCase1"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YqQQkCQ3EeeNH9b9OQSkMA" memberEnd="_YqQQkyQ3EeeNH9b9OQSkMA _YqQQlCQ3EeeNH9b9OQSkMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YqQQkSQ3EeeNH9b9OQSkMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YqQQkiQ3EeeNH9b9OQSkMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YqQQkyQ3EeeNH9b9OQSkMA" name="usecase1" type="_Un7qoCQ3EeeNH9b9OQSkMA" association="_YqQQkCQ3EeeNH9b9OQSkMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YqQQlCQ3EeeNH9b9OQSkMA" name="system" type="_M1tEcCQ3EeeNH9b9OQSkMA" association="_YqQQkCQ3EeeNH9b9OQSkMA"/>
+  </packagedElement>
 </uml:Model>
