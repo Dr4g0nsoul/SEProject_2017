@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_BWwPgCt3EeeMKNHlr67q6g" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_MiTusCuHEeeMKNHlr67q6g" name="Employee">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9ObNkCuJEeeMKNHlr67q6g" name="employeeID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7nYzwCuIEeeMKNHlr67q6g" name="Name"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CrK_kCuJEeeMKNHlr67q6g" name="DateofBirth"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GDwE8CuJEeeMKNHlr67q6g" name="Email"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IM1RUCuJEeeMKNHlr67q6g" name="Password"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tTdJMCuKEeeMKNHlr67q6g" name="addEmployee"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_un4lgCuKEeeMKNHlr67q6g" name="editEmployee"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_verqoCuKEeeMKNHlr67q6g" name="deleteEmployee"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_wjL0kCuKEeeMKNHlr67q6g" name="getEmployee"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xPT6wCuKEeeMKNHlr67q6g" name="listEmployee"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zuEjkCuHEeeMKNHlr67q6g" name="Payment">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Bb-zICuKEeeMKNHlr67q6g" name="PaymentID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MmSk4CuJEeeMKNHlr67q6g" name="CreditCardNumber"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PwnL0CuJEeeMKNHlr67q6g" name="ExpirationDate"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yuvGICuKEeeMKNHlr67q6g" name="addPayment"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2F0WsCuKEeeMKNHlr67q6g" name="editPayment"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3ylagCuKEeeMKNHlr67q6g" name="listPayment"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5RvAcCuHEeeMKNHlr67q6g" name="TimeSheets">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iZP64CuJEeeMKNHlr67q6g" name="TimeSheetID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UtD3sCuJEeeMKNHlr67q6g" name="Name"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YC5LECuJEeeMKNHlr67q6g" name="Date"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZBdsICuJEeeMKNHlr67q6g" name="Time"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jlJGQCuJEeeMKNHlr67q6g" name="Describtion"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_LSvncCuLEeeMKNHlr67q6g" name="addTimeSheet"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NE9zACuLEeeMKNHlr67q6g" name="editTimeSheet"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_O79J0CuLEeeMKNHlr67q6g" name="listTimeSheet"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BQTZgCuIEeeMKNHlr67q6g" name="Leave" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xMr6ACuJEeeMKNHlr67q6g" name="leaveID" visibility="public"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_m0YCYCuJEeeMKNHlr67q6g" name="employeeID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qaGL4CuJEeeMKNHlr67q6g" name="leaveDescription"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_t1k0QCuJEeeMKNHlr67q6g" name="leaveDate"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vHZBcCuJEeeMKNHlr67q6g" name="leaveStatus"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Fy1CICuLEeeMKNHlr67q6g" name="applyLeave"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_G_88kCuLEeeMKNHlr67q6g" name="editLeave"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_H17iUCuLEeeMKNHlr67q6g" name="getLeave"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IyJ6ACuLEeeMKNHlr67q6g" name="listLeave"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JgxTgCuLEeeMKNHlr67q6g" name="getStatus"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_HCJcUCuIEeeMKNHlr67q6g" name="SystemAccessType" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EMpj8CuKEeeMKNHlr67q6g" name="SystemID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xQsFsCuIEeeMKNHlr67q6g" name="SystemType"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-4hicCuKEeeMKNHlr67q6g" name="selectAccessType"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_B5TL0CuLEeeMKNHlr67q6g" name="editAccessType"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_P5dJUCuKEeeMKNHlr67q6g" name="Salary">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RUrKICuKEeeMKNHlr67q6g" name="salaryID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TyX7oCuKEeeMKNHlr67q6g" name="employeeID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_U1tA4CuKEeeMKNHlr67q6g" name="salaryDate"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZmKfMCuKEeeMKNHlr67q6g" name="salaryAmount"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kZiiMCuKEeeMKNHlr67q6g" name="addSalary"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_m9wLYCuKEeeMKNHlr67q6g" name="editSalary"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oFeBYCuKEeeMKNHlr67q6g" name="getSalary"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_o5k-4CuKEeeMKNHlr67q6g" name="listSalary"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Tr2AYCuLEeeMKNHlr67q6g" name="Login">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UropcCuLEeeMKNHlr67q6g" name="loginID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_V7hkACuLEeeMKNHlr67q6g" name="emloyeeID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_W6CasCuLEeeMKNHlr67q6g" name="accessID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_alicECuLEeeMKNHlr67q6g" name="loginUsername"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bhyo8CuLEeeMKNHlr67q6g" name="loginPassword"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ddh84CuLEeeMKNHlr67q6g" name="checkLogin"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iEHtgCuLEeeMKNHlr67q6g" name="createLogin"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_leCPoCuLEeeMKNHlr67q6g" name="editLoginInformation"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5Ns4MCuLEeeMKNHlr67q6g" visibility="private" memberEnd="_5NvUcCuLEeeMKNHlr67q6g _5NxJoCuLEeeMKNHlr67q6g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5NuGUCuLEeeMKNHlr67q6g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5NuGUSuLEeeMKNHlr67q6g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5NxJoCuLEeeMKNHlr67q6g" name="employee" type="_MiTusCuHEeeMKNHlr67q6g" association="_5Ns4MCuLEeeMKNHlr67q6g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5NvUcCuLEeeMKNHlr67q6g" name="login" type="_Tr2AYCuLEeeMKNHlr67q6g" association="_5Ns4MCuLEeeMKNHlr67q6g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AFCjcCuMEeeMKNHlr67q6g" memberEnd="_AFDKgiuMEeeMKNHlr67q6g _AFDxkCuMEeeMKNHlr67q6g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AFDKgCuMEeeMKNHlr67q6g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AFDKgSuMEeeMKNHlr67q6g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AFDxkCuMEeeMKNHlr67q6g" name="login" type="_Tr2AYCuLEeeMKNHlr67q6g" association="_AFCjcCuMEeeMKNHlr67q6g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AFDKgiuMEeeMKNHlr67q6g" name="systemaccesstype" type="_HCJcUCuIEeeMKNHlr67q6g" association="_AFCjcCuMEeeMKNHlr67q6g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EdDFgCuMEeeMKNHlr67q6g" memberEnd="_EdDskiuMEeeMKNHlr67q6g _EdGI0CuMEeeMKNHlr67q6g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EdDskCuMEeeMKNHlr67q6g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EdDskSuMEeeMKNHlr67q6g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EdGI0CuMEeeMKNHlr67q6g" name="employee" type="_MiTusCuHEeeMKNHlr67q6g" association="_EdDFgCuMEeeMKNHlr67q6g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EdDskiuMEeeMKNHlr67q6g" name="salary" type="_P5dJUCuKEeeMKNHlr67q6g" association="_EdDFgCuMEeeMKNHlr67q6g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_M0R2MCuMEeeMKNHlr67q6g" memberEnd="_M0TrYCuMEeeMKNHlr67q6g _M0UScCuMEeeMKNHlr67q6g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M0TEUCuMEeeMKNHlr67q6g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M0TEUSuMEeeMKNHlr67q6g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_M0UScCuMEeeMKNHlr67q6g" name="leave" type="_BQTZgCuIEeeMKNHlr67q6g" association="_M0R2MCuMEeeMKNHlr67q6g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_M0TrYCuMEeeMKNHlr67q6g" name="employee" type="_MiTusCuHEeeMKNHlr67q6g" association="_M0R2MCuMEeeMKNHlr67q6g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QqujUCuMEeeMKNHlr67q6g" memberEnd="_QqvKYiuMEeeMKNHlr67q6g _QqxmoCuMEeeMKNHlr67q6g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QqvKYCuMEeeMKNHlr67q6g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QqvKYSuMEeeMKNHlr67q6g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QqxmoCuMEeeMKNHlr67q6g" name="timesheets" type="_5RvAcCuHEeeMKNHlr67q6g" association="_QqujUCuMEeeMKNHlr67q6g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QqvKYiuMEeeMKNHlr67q6g" name="employee" type="_MiTusCuHEeeMKNHlr67q6g" association="_QqujUCuMEeeMKNHlr67q6g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TTofQCuMEeeMKNHlr67q6g" memberEnd="_TTqUcCuMEeeMKNHlr67q6g _TTq7gCuMEeeMKNHlr67q6g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TTptYCuMEeeMKNHlr67q6g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TTptYSuMEeeMKNHlr67q6g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TTq7gCuMEeeMKNHlr67q6g" name="payment" type="_zuEjkCuHEeeMKNHlr67q6g" association="_TTofQCuMEeeMKNHlr67q6g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TTqUcCuMEeeMKNHlr67q6g" name="employee" type="_MiTusCuHEeeMKNHlr67q6g" association="_TTofQCuMEeeMKNHlr67q6g"/>
+  </packagedElement>
+</uml:Model>
