@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ZIIaUDPYEeevy6sJwx6ljg" name="RootElement">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_eGVZsDPYEeevy6sJwx6ljg" name="User, create/login" node="_MrO_UDPZEeevy6sJwx6ljg _scLBYDPZEeevy6sJwx6ljg _1TK3QDPZEeevy6sJwx6ljg _fFrr8DPaEeevy6sJwx6ljg _p9uzkDPaEeevy6sJwx6ljg _8RKHoDPaEeevy6sJwx6ljg _PhZpQDPbEeevy6sJwx6ljg _wYYtYDPbEeevy6sJwx6ljg _7OWKUDPbEeevy6sJwx6ljg _8ZYaEDPbEeevy6sJwx6ljg _9mlNADPbEeevy6sJwx6ljg _IWPNoDPcEeevy6sJwx6ljg _PFJVoDPcEeevy6sJwx6ljg">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_c49yMDPZEeevy6sJwx6ljg">
+      <body>User is registered&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_tbyZYDPbEeevy6sJwx6ljg">
+      <body>User not registered&#xD;
+</body>
+    </ownedComment>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8eHbADPZEeevy6sJwx6ljg" target="_scLBYDPZEeevy6sJwx6ljg" source="_1TK3QDPZEeevy6sJwx6ljg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RJp18DPaEeevy6sJwx6ljg" target="_scLBYDPZEeevy6sJwx6ljg" source="_MrO_UDPZEeevy6sJwx6ljg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_l7GEkDPaEeevy6sJwx6ljg" name="No" target="_1TK3QDPZEeevy6sJwx6ljg" source="_fFrr8DPaEeevy6sJwx6ljg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oSO7EDPaEeevy6sJwx6ljg" target="_fFrr8DPaEeevy6sJwx6ljg" source="_scLBYDPZEeevy6sJwx6ljg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0MpeoDPaEeevy6sJwx6ljg" name="Yes" target="_PhZpQDPbEeevy6sJwx6ljg" source="_fFrr8DPaEeevy6sJwx6ljg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-Qs9gDPaEeevy6sJwx6ljg" target="_8RKHoDPaEeevy6sJwx6ljg" source="_p9uzkDPaEeevy6sJwx6ljg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cKB9sDPbEeevy6sJwx6ljg" target="_p9uzkDPaEeevy6sJwx6ljg" source="_PhZpQDPbEeevy6sJwx6ljg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XrbO8DPcEeevy6sJwx6ljg" target="_7OWKUDPbEeevy6sJwx6ljg" source="_wYYtYDPbEeevy6sJwx6ljg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_esuHcDPcEeevy6sJwx6ljg" target="_PFJVoDPcEeevy6sJwx6ljg" source="_7OWKUDPbEeevy6sJwx6ljg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gyWXMDPcEeevy6sJwx6ljg" name="No" target="_8ZYaEDPbEeevy6sJwx6ljg" source="_PFJVoDPcEeevy6sJwx6ljg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jjaJkDPcEeevy6sJwx6ljg" name="Yes" target="_9mlNADPbEeevy6sJwx6ljg" source="_PFJVoDPcEeevy6sJwx6ljg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_maFbwDPcEeevy6sJwx6ljg" target="_IWPNoDPcEeevy6sJwx6ljg" source="_9mlNADPbEeevy6sJwx6ljg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2IeAMDPcEeevy6sJwx6ljg" target="_7OWKUDPbEeevy6sJwx6ljg" source="_8ZYaEDPbEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_MrO_UDPZEeevy6sJwx6ljg" name="Start" outgoing="_RJp18DPaEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_scLBYDPZEeevy6sJwx6ljg" name="Login" incoming="_8eHbADPZEeevy6sJwx6ljg _RJp18DPaEeevy6sJwx6ljg" outgoing="_oSO7EDPaEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1TK3QDPZEeevy6sJwx6ljg" name="Invalid" incoming="_l7GEkDPaEeevy6sJwx6ljg" outgoing="_8eHbADPZEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_fFrr8DPaEeevy6sJwx6ljg" name="Correct" incoming="_oSO7EDPaEeevy6sJwx6ljg" outgoing="_l7GEkDPaEeevy6sJwx6ljg _0MpeoDPaEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_p9uzkDPaEeevy6sJwx6ljg" name="Successful login" incoming="_cKB9sDPbEeevy6sJwx6ljg" outgoing="_-Qs9gDPaEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_8RKHoDPaEeevy6sJwx6ljg" name="End" incoming="_-Qs9gDPaEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PhZpQDPbEeevy6sJwx6ljg" name="accessRightSystemType" incoming="_0MpeoDPaEeevy6sJwx6ljg" outgoing="_cKB9sDPbEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_wYYtYDPbEeevy6sJwx6ljg" name="Start" outgoing="_XrbO8DPcEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7OWKUDPbEeevy6sJwx6ljg" name="Register" incoming="_XrbO8DPcEeevy6sJwx6ljg _2IeAMDPcEeevy6sJwx6ljg" outgoing="_esuHcDPcEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_8ZYaEDPbEeevy6sJwx6ljg" name="Invalid" incoming="_gyWXMDPcEeevy6sJwx6ljg" outgoing="_2IeAMDPcEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_9mlNADPbEeevy6sJwx6ljg" name="Register successful" incoming="_jjaJkDPcEeevy6sJwx6ljg" outgoing="_maFbwDPcEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_IWPNoDPcEeevy6sJwx6ljg" name="Go to user is registered" incoming="_maFbwDPcEeevy6sJwx6ljg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_PFJVoDPcEeevy6sJwx6ljg" name="Correct" incoming="_esuHcDPcEeevy6sJwx6ljg" outgoing="_gyWXMDPcEeevy6sJwx6ljg _jjaJkDPcEeevy6sJwx6ljg"/>
+  </packagedElement>
+</uml:Model>

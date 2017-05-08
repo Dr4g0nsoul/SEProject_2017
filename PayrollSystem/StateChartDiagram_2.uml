@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7LlHADPXEeevy6sJwx6ljg" name="RootElement">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_tIkp0DPYEeevy6sJwx6ljg" name="LeaveRequest">
+    <region xmi:type="uml:Region" xmi:id="_vkn1gDPYEeevy6sJwx6ljg" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_b-ct4DPdEeevy6sJwx6ljg" source="_EM9OoDPdEeevy6sJwx6ljg" target="_GbrwADPdEeevy6sJwx6ljg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_c23joDPdEeevy6sJwx6ljg" source="_GbrwADPdEeevy6sJwx6ljg" target="_KqhH8DPdEeevy6sJwx6ljg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_3cjBwDPdEeevy6sJwx6ljg" source="_KqhH8DPdEeevy6sJwx6ljg" target="_i0cVUDPdEeevy6sJwx6ljg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_40JG0DPdEeevy6sJwx6ljg" source="_i0cVUDPdEeevy6sJwx6ljg" target="_l709ADPdEeevy6sJwx6ljg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_DY77QDPeEeevy6sJwx6ljg" source="_l709ADPdEeevy6sJwx6ljg" target="_AR0ZUDPeEeevy6sJwx6ljg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Iad7cDPeEeevy6sJwx6ljg" source="_AR0ZUDPeEeevy6sJwx6ljg" target="_oLst4DPdEeevy6sJwx6ljg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_JJTXYDPeEeevy6sJwx6ljg" source="_AR0ZUDPeEeevy6sJwx6ljg" target="_qvlm8DPdEeevy6sJwx6ljg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_T8M5QDPeEeevy6sJwx6ljg" source="_qvlm8DPdEeevy6sJwx6ljg" target="_SawUoDPeEeevy6sJwx6ljg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_YKrE0DPeEeevy6sJwx6ljg" source="_oLst4DPdEeevy6sJwx6ljg" target="_ti1xsDPdEeevy6sJwx6ljg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_a4TIsDPeEeevy6sJwx6ljg" source="_ti1xsDPdEeevy6sJwx6ljg" target="_ZMzQMDPeEeevy6sJwx6ljg"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_EM9OoDPdEeevy6sJwx6ljg" name="Start"/>
+      <subvertex xmi:type="uml:State" xmi:id="_GbrwADPdEeevy6sJwx6ljg" name="Login"/>
+      <subvertex xmi:type="uml:State" xmi:id="_KqhH8DPdEeevy6sJwx6ljg" name="insert_leave_details"/>
+      <subvertex xmi:type="uml:State" xmi:id="_i0cVUDPdEeevy6sJwx6ljg" name="send_leave_request"/>
+      <subvertex xmi:type="uml:State" xmi:id="_l709ADPdEeevy6sJwx6ljg" name="request_for_permission"/>
+      <subvertex xmi:type="uml:State" xmi:id="_oLst4DPdEeevy6sJwx6ljg" name="leave_granted"/>
+      <subvertex xmi:type="uml:State" xmi:id="_qvlm8DPdEeevy6sJwx6ljg" name="leave_denied"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ti1xsDPdEeevy6sJwx6ljg" name="submit"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_AR0ZUDPeEeevy6sJwx6ljg" name="" kind="fork"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_SawUoDPeEeevy6sJwx6ljg" name="End"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_ZMzQMDPeEeevy6sJwx6ljg" name="End"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_M4DWgDPdEeevy6sJwx6ljg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M4GZ0DPdEeevy6sJwx6ljg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
