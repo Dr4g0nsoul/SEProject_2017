@@ -53,6 +53,11 @@
         <element xmi:type="uml:Lifeline" href="SequenceDiagram_1.uml#_ry5WsDFvEee656Y769IFTw"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ry8aATFvEee656Y769IFTw" x="612" y="10" width="100" height="699"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_ZzTRoDSxEeeZEZz4PrsdYg" type="Comment_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ZzUfwDSxEeeZEZz4PrsdYg" type="Comment_BodyLabel"/>
+        <element xmi:type="uml:Comment" href="SequenceDiagram_1.uml#_Zucm0DSxEeeZEZz4PrsdYg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZzTRoTSxEeeZEZz4PrsdYg" x="491" y="81" width="151" height="126"/>
+      </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qM769DFuEee656Y769IFTw"/>
     </children>
     <element xmi:type="uml:Interaction" href="SequenceDiagram_1.uml#_qMw70DFuEee656Y769IFTw"/>
