@@ -32,7 +32,7 @@
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_iNj8MDoXEeeGOakBIi4NbA" name="ActionExecSpecFinish" covered="_I-wxcDoXEeeGOakBIi4NbA" execution="_iNjVIDoXEeeGOakBIi4NbA"/>
     <message xmi:type="uml:Message" xmi:id="_q-EIgDoXEeeGOakBIi4NbA" name="makePayment()" messageSort="asynchCall" receiveEvent="_q-lF4DoXEeeGOakBIi4NbA" sendEvent="_q-ke0DoXEeeGOakBIi4NbA"/>
     <message xmi:type="uml:Message" xmi:id="_AvRLADoYEeeGOakBIi4NbA" name="getPaymentDetails()" messageSort="asynchCall" receiveEvent="_AvU1YDoYEeeGOakBIi4NbA" sendEvent="_AvTnQDoYEeeGOakBIi4NbA"/>
-    <message xmi:type="uml:Message" xmi:id="_fq8ZADoYEeeGOakBIi4NbA" name="addPayment()" messageSort="asynchCall" receiveEvent="_fq-OMDoYEeeGOakBIi4NbA" sendEvent="_fq9nIDoYEeeGOakBIi4NbA"/>
+    <message xmi:type="uml:Message" xmi:id="_fq8ZADoYEeeGOakBIi4NbA" name="createNewPayment()" messageSort="asynchCall" receiveEvent="_fq-OMDoYEeeGOakBIi4NbA" sendEvent="_fq9nIDoYEeeGOakBIi4NbA"/>
     <message xmi:type="uml:Message" xmi:id="_4WXJ4DoYEeeGOakBIi4NbA" name="submitPayment()" messageSort="asynchCall" receiveEvent="_4WaNMDoYEeeGOakBIi4NbA" sendEvent="_4WY_EDoYEeeGOakBIi4NbA"/>
     <message xmi:type="uml:Message" xmi:id="_-PeSUDoYEeeGOakBIi4NbA" name="savePayment()" messageSort="asynchCall" receiveEvent="_-PijwDoYEeeGOakBIi4NbA" sendEvent="_-PgukDoYEeeGOakBIi4NbA"/>
     <message xmi:type="uml:Message" xmi:id="_NtI6MDoZEeeGOakBIi4NbA" name="state()" messageSort="reply" receiveEvent="_NtMkkDoZEeeGOakBIi4NbA" sendEvent="_NtLWcDoZEeeGOakBIi4NbA"/>
