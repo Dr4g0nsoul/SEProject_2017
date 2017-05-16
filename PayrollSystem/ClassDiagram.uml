@@ -131,7 +131,7 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_l-DKkDFsEeeki_p2HAZDZA" name="chagePersonalInformation"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_php0MDFsEeeki_p2HAZDZA" name="setPaymentMethod"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_88oboDFrEeeki_p2HAZDZA" name="PLoginPage">
+    <packagedElement xmi:type="uml:Class" xmi:id="_88oboDFrEeeki_p2HAZDZA" name="PLoginPagee">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_iwEysDFsEeeki_p2HAZDZA" name="authentificate"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="__9HxIDFrEeeki_p2HAZDZA" name="PMainWebsite">
