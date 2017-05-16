@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_kOOwQDoTEeeBoM4yiRfFYg" name="RootElement">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_kW91gDoTEeeBoM4yiRfFYg" name="Payment system for each employee">
+    <region xmi:type="uml:Region" xmi:id="_kePiMDoTEeeBoM4yiRfFYg" name="Region1">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_avGG4DoUEeeBoM4yiRfFYg">
+        <body>Payment day is reached</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_21GygDoYEeeITu5t0VUmbg">
+        <body>Contractual employees can opt out of tax deductions</body>
+      </ownedComment>
+      <transition xmi:type="uml:Transition" xmi:id="_ZnOYgDoXEeeBoM4yiRfFYg" source="_zG4mkDoTEeeBoM4yiRfFYg" target="_18H44DoUEeeBoM4yiRfFYg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_9zjn0DoXEeeBoM4yiRfFYg" guard="_NZ5DgDoYEeeITu5t0VUmbg" source="_18H44DoUEeeBoM4yiRfFYg" target="_0E8fYDoVEeeBoM4yiRfFYg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_NZ5DgDoYEeeITu5t0VUmbg" name="">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_NZ5DgToYEeeITu5t0VUmbg">
+            <language>Natural language</language>
+            <body>Full-Time Employee</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_QpsnYDoYEeeITu5t0VUmbg" guard="_TgM6cDoYEeeITu5t0VUmbg" source="_18H44DoUEeeBoM4yiRfFYg" target="_buJ6sDoVEeeBoM4yiRfFYg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_TgM6cDoYEeeITu5t0VUmbg" name="">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_TgM6cToYEeeITu5t0VUmbg">
+            <language>Natural language</language>
+            <body>Contractual Employee</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_iRgLkDoYEeeITu5t0VUmbg" guard="_jc610DoYEeeITu5t0VUmbg" source="_buJ6sDoVEeeBoM4yiRfFYg" target="_0E8fYDoVEeeBoM4yiRfFYg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_jc610DoYEeeITu5t0VUmbg" name="">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_jc610ToYEeeITu5t0VUmbg">
+            <language>Natural language</language>
+            <body>Yes</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_yAo98DoYEeeITu5t0VUmbg" source="_0E8fYDoVEeeBoM4yiRfFYg" target="_JKzUQDoVEeeBoM4yiRfFYg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_0IRY0DoYEeeITu5t0VUmbg" guard="_1dEBgDoYEeeITu5t0VUmbg" source="_buJ6sDoVEeeBoM4yiRfFYg" target="_7Xh8MDoVEeeBoM4yiRfFYg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_1dEBgDoYEeeITu5t0VUmbg" name="">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_1dEBgToYEeeITu5t0VUmbg">
+            <language>Natural language</language>
+            <body>No</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_83krQDoYEeeITu5t0VUmbg" source="_JKzUQDoVEeeBoM4yiRfFYg" target="_7Xh8MDoVEeeBoM4yiRfFYg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_9t5PQDoYEeeITu5t0VUmbg" source="_7Xh8MDoVEeeBoM4yiRfFYg" target="_f4ozkDoUEeeBoM4yiRfFYg"/>
+      <transition xmi:type="uml:Transition" xmi:id="__aIuoDoYEeeITu5t0VUmbg" source="_f4ozkDoUEeeBoM4yiRfFYg" target="_Bab50DoWEeeBoM4yiRfFYg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_BVqAIDoZEeeITu5t0VUmbg" guard="_E3UJADoZEeeITu5t0VUmbg" source="_Bab50DoWEeeBoM4yiRfFYg" target="_jJywYDoWEeeBoM4yiRfFYg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_E3UJADoZEeeITu5t0VUmbg" name="">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_E3UJAToZEeeITu5t0VUmbg">
+            <language>Natural language</language>
+            <body>Post office</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_Grte0DoZEeeITu5t0VUmbg" guard="_Hz2LkDoZEeeITu5t0VUmbg" source="_Bab50DoWEeeBoM4yiRfFYg" target="_ZOUlwDoWEeeBoM4yiRfFYg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_Hz2LkDoZEeeITu5t0VUmbg" name="">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_Hz2LkToZEeeITu5t0VUmbg">
+            <language>Natural language</language>
+            <body>E-Mail</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_Mo-ugDoZEeeITu5t0VUmbg" source="_ZOUlwDoWEeeBoM4yiRfFYg" target="_VCELQDoXEeeBoM4yiRfFYg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_NZ3Y4DoZEeeITu5t0VUmbg" source="_jJywYDoWEeeBoM4yiRfFYg" target="_SWjnQDoXEeeBoM4yiRfFYg"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_zG4mkDoTEeeBoM4yiRfFYg" name="Start"/>
+      <subvertex xmi:type="uml:State" xmi:id="_f4ozkDoUEeeBoM4yiRfFYg" name="checking_notification_method"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_18H44DoUEeeBoM4yiRfFYg" name="type_of_employee" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_JKzUQDoVEeeBoM4yiRfFYg" name="deducting_tax_rates"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_buJ6sDoVEeeBoM4yiRfFYg" name="tax_deduction_enabled" kind="choice"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_0E8fYDoVEeeBoM4yiRfFYg" name="" kind="join"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_7Xh8MDoVEeeBoM4yiRfFYg" name="" kind="join"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_Bab50DoWEeeBoM4yiRfFYg" name="notification_method" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ZOUlwDoWEeeBoM4yiRfFYg" name="sending_email"/>
+      <subvertex xmi:type="uml:State" xmi:id="_jJywYDoWEeeBoM4yiRfFYg" name="sending_per_post_mail"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_SWjnQDoXEeeBoM4yiRfFYg" name="End"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_VCELQDoXEeeBoM4yiRfFYg" name="End"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_dwcQoDoXEeeBoM4yiRfFYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dweF0DoXEeeBoM4yiRfFYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
