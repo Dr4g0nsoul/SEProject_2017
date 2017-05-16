@@ -92,11 +92,13 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_CrK_kCuJEeeMKNHlr67q6g" name="DateofBirth"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_GDwE8CuJEeeMKNHlr67q6g" name="Email"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_IM1RUCuJEeeMKNHlr67q6g" name="Password"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_MAxXoDocEeeY3s0JIUT1ZA" name="PaymentDetails" visibility="public"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_tTdJMCuKEeeMKNHlr67q6g" name="addEmployee"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_un4lgCuKEeeMKNHlr67q6g" name="editEmployee"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_verqoCuKEeeMKNHlr67q6g" name="deleteEmployee"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_wjL0kCuKEeeMKNHlr67q6g" name="getEmployee"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_xPT6wCuKEeeMKNHlr67q6g" name="listEmployee"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_OvFYADocEeeY3s0JIUT1ZA" name="getPaymentDetails"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_P5dJUCuKEeeMKNHlr67q6g" name="Salary">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_RUrKICuKEeeMKNHlr67q6g" name="salaryID"/>
