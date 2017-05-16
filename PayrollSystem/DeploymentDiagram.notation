@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vn6fIDowEee1g483jT0J7A" type="PapyrusUMLDeploymentDiagram" name="Deployment Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_OgMa4DoxEee1g483jT0J7A" type="Node_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OgO3IDoxEee1g483jT0J7A" type="Node_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_OgO3IToxEee1g483jT0J7A" type="Node_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_OgO3IjoxEee1g483jT0J7A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OgO3IzoxEee1g483jT0J7A"/>
+    </children>
+    <element xmi:type="uml:Node" href="DeploymentDiagram.uml#_OeZEEDoxEee1g483jT0J7A"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OgMa4ToxEee1g483jT0J7A" x="459" y="74" width="226" height="225"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_vn6fITowEee1g483jT0J7A" name="diagram_compatibility_version" stringValue="1.2.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_vn6fIjowEee1g483jT0J7A"/>
   <styles xmi:type="style:PapyrusViewStyle" xmi:id="_vn6fIzowEee1g483jT0J7A">
