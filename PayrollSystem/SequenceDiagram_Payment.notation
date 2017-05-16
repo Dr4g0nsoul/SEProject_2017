@@ -10,10 +10,10 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I_GvsjoXEeeGOakBIi4NbA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_iNqC0DoXEeeGOakBIi4NbA" type="ActionExecutionSpecification_Shape">
-          <element xmi:type="uml:ActionExecutionSpecification" href="SequenceDiagram_payment.uml#_iNjVIDoXEeeGOakBIi4NbA"/>
+          <element xmi:type="uml:ActionExecutionSpecification" href="SequenceDiagram_Payment.uml#_iNjVIDoXEeeGOakBIi4NbA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iNqC0ToXEeeGOakBIi4NbA" x="42" y="71" width="16" height="593"/>
         </children>
-        <element xmi:type="uml:Lifeline" href="SequenceDiagram_payment.uml#_I-wxcDoXEeeGOakBIi4NbA"/>
+        <element xmi:type="uml:Lifeline" href="SequenceDiagram_Payment.uml#_I-wxcDoXEeeGOakBIi4NbA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I-4GMToXEeeGOakBIi4NbA" x="50" y="10" width="100" height="1061"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_K-KdYDoXEeeGOakBIi4NbA" type="Lifeline_Shape">
@@ -23,10 +23,10 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K-PV4joXEeeGOakBIi4NbA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_l1oPEDoXEeeGOakBIi4NbA" type="ActionExecutionSpecification_Shape">
-          <element xmi:type="uml:ActionExecutionSpecification" href="SequenceDiagram_payment.uml#_l1g6UDoXEeeGOakBIi4NbA"/>
+          <element xmi:type="uml:ActionExecutionSpecification" href="SequenceDiagram_Payment.uml#_l1g6UDoXEeeGOakBIi4NbA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l1oPEToXEeeGOakBIi4NbA" x="42" y="86" width="16" height="526"/>
         </children>
-        <element xmi:type="uml:Lifeline" href="SequenceDiagram_payment.uml#_K-HaEDoXEeeGOakBIi4NbA"/>
+        <element xmi:type="uml:Lifeline" href="SequenceDiagram_Payment.uml#_K-HaEDoXEeeGOakBIi4NbA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K-KdYToXEeeGOakBIi4NbA" x="303" y="10" width="100" height="1061"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_TEtGsDoXEeeGOakBIi4NbA" type="Lifeline_Shape">
@@ -40,23 +40,23 @@
             <styles xmi:type="notation:TitleStyle" xmi:id="_nti9gToYEeeGOakBIi4NbA"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nti9gjoYEeeGOakBIi4NbA"/>
           </children>
-          <element xmi:type="uml:ActionExecutionSpecification" href="SequenceDiagram_payment.uml#_ntJU4DoYEeeGOakBIi4NbA"/>
+          <element xmi:type="uml:ActionExecutionSpecification" href="SequenceDiagram_Payment.uml#_ntJU4DoYEeeGOakBIi4NbA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ntXXUToYEeeGOakBIi4NbA" x="42" y="403" width="16" height="147"/>
         </children>
-        <element xmi:type="uml:Lifeline" href="SequenceDiagram_payment.uml#_TEqDYDoXEeeGOakBIi4NbA"/>
+        <element xmi:type="uml:Lifeline" href="SequenceDiagram_Payment.uml#_TEqDYDoXEeeGOakBIi4NbA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TEtGsToXEeeGOakBIi4NbA" x="576" y="10" width="100" height="1061"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IXJfNDoUEeeGOakBIi4NbA"/>
     </children>
-    <element xmi:type="uml:Interaction" href="SequenceDiagram_payment.uml#_IWHkcDoUEeeGOakBIi4NbA"/>
+    <element xmi:type="uml:Interaction" href="SequenceDiagram_Payment.uml#_IWHkcDoUEeeGOakBIi4NbA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IXJfNToUEeeGOakBIi4NbA"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_IXJfNjoUEeeGOakBIi4NbA" name="diagram_compatibility_version" stringValue="1.2.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_IXJfNzoUEeeGOakBIi4NbA"/>
   <styles xmi:type="style:PapyrusViewStyle" xmi:id="_IXJfODoUEeeGOakBIi4NbA">
-    <owner xmi:type="uml:Model" href="SequenceDiagram_payment.uml#_IVggcDoUEeeGOakBIi4NbA"/>
+    <owner xmi:type="uml:Model" href="SequenceDiagram_Payment.uml#_IVggcDoUEeeGOakBIi4NbA"/>
   </styles>
-  <element xmi:type="uml:Interaction" href="SequenceDiagram_payment.uml#_IWHkcDoUEeeGOakBIi4NbA"/>
+  <element xmi:type="uml:Interaction" href="SequenceDiagram_Payment.uml#_IWHkcDoUEeeGOakBIi4NbA"/>
   <edges xmi:type="notation:Connector" xmi:id="_q-vd8DoXEeeGOakBIi4NbA" type="Message_AsynchEdge" source="_iNqC0DoXEeeGOakBIi4NbA" target="_l1oPEDoXEeeGOakBIi4NbA">
     <children xmi:type="notation:DecorationNode" xmi:id="_q-wsEDoXEeeGOakBIi4NbA" type="Message_AsynchNameLabel">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_q-wsEToXEeeGOakBIi4NbA" x="1" y="-13"/>
@@ -66,7 +66,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_q-wFADoXEeeGOakBIi4NbA"/>
     <styles xmi:type="notation:LineStyle" xmi:id="_q-xTIToXEeeGOakBIi4NbA"/>
-    <element xmi:type="uml:Message" href="SequenceDiagram_payment.uml#_q-EIgDoXEeeGOakBIi4NbA"/>
+    <element xmi:type="uml:Message" href="SequenceDiagram_Payment.uml#_q-EIgDoXEeeGOakBIi4NbA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_q-wFAToXEeeGOakBIi4NbA" points="[3, 0, -362, 0]$[359, 0, -6, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q_aMUDoXEeeGOakBIi4NbA" id="(0.875,0.052276559865092755)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q_aMUToXEeeGOakBIi4NbA" id="(0.25,0.030418250950570342)"/>
@@ -80,7 +80,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_Avl7IToYEeeGOakBIi4NbA"/>
     <styles xmi:type="notation:LineStyle" xmi:id="_AvmiMzoYEeeGOakBIi4NbA"/>
-    <element xmi:type="uml:Message" href="SequenceDiagram_payment.uml#_AvRLADoYEeeGOakBIi4NbA"/>
+    <element xmi:type="uml:Message" href="SequenceDiagram_Payment.uml#_AvRLADoYEeeGOakBIi4NbA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Avl7IjoYEeeGOakBIi4NbA" points="[0, 0, 0, -50]$[60, 0, 60, -50]$[60, 56, 60, 6]$[0, 56, 0, 6]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AwFqYDoYEeeGOakBIi4NbA" id="(1.0,0.07984790874524715)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AwFqYToYEeeGOakBIi4NbA" id="(1.0,0.18631178707224336)"/>
@@ -94,7 +94,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_frOs4ToYEeeGOakBIi4NbA"/>
     <styles xmi:type="notation:LineStyle" xmi:id="_frPT8joYEeeGOakBIi4NbA"/>
-    <element xmi:type="uml:Message" href="SequenceDiagram_payment.uml#_fq8ZADoYEeeGOakBIi4NbA"/>
+    <element xmi:type="uml:Message" href="SequenceDiagram_Payment.uml#_fq8ZADoYEeeGOakBIi4NbA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_frOs4joYEeeGOakBIi4NbA" points="[0, -6, 0, -58]$[62, -6, 62, -58]$[62, 52, 62, 0]$[0, 52, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_frqKsDoYEeeGOakBIi4NbA" id="(1.0,0.22433460076045628)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_frqKsToYEeeGOakBIi4NbA" id="(1.0,0.33460076045627374)"/>
@@ -108,7 +108,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_4WmacToYEeeGOakBIi4NbA"/>
     <styles xmi:type="notation:LineStyle" xmi:id="_4WmadzoYEeeGOakBIi4NbA"/>
-    <element xmi:type="uml:Message" href="SequenceDiagram_payment.uml#_4WXJ4DoYEeeGOakBIi4NbA"/>
+    <element xmi:type="uml:Message" href="SequenceDiagram_Payment.uml#_4WXJ4DoYEeeGOakBIi4NbA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4WmacjoYEeeGOakBIi4NbA" points="[5, 0, -385, 0]$[390, 0, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4XADEDoYEeeGOakBIi4NbA" id="(0.625,0.6064638783269962)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4XADEToYEeeGOakBIi4NbA" id="(0.0,0.0){8}"/>
@@ -122,7 +122,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_-PsUwToYEeeGOakBIi4NbA"/>
     <styles xmi:type="notation:LineStyle" xmi:id="_-Ps71DoYEeeGOakBIi4NbA"/>
-    <element xmi:type="uml:Message" href="SequenceDiagram_payment.uml#_-PeSUDoYEeeGOakBIi4NbA"/>
+    <element xmi:type="uml:Message" href="SequenceDiagram_Payment.uml#_-PeSUDoYEeeGOakBIi4NbA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-PsUwjoYEeeGOakBIi4NbA" points="[0, 11, 0, -73]$[62, 11, 62, -73]$[62, 84, 62, 0]$[0, 84, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-QJnwDoYEeeGOakBIi4NbA" id="(0.9375,0.20408163265306123)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-QJnwToYEeeGOakBIi4NbA" id="(1.0,0.7074829931972789)"/>
@@ -136,7 +136,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_NtZY4ToZEeeGOakBIi4NbA"/>
     <styles xmi:type="notation:LineStyle" xmi:id="_NtZ_9DoZEeeGOakBIi4NbA"/>
-    <element xmi:type="uml:Message" href="SequenceDiagram_payment.uml#_NtI6MDoZEeeGOakBIi4NbA"/>
+    <element xmi:type="uml:Message" href="SequenceDiagram_Payment.uml#_NtI6MDoZEeeGOakBIi4NbA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NtZY4joZEeeGOakBIi4NbA" points="[0, 0, 388, -12]$[-385, 15, 3, 3]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Nt0PoDoZEeeGOakBIi4NbA" id="(0.0,0.9251700680272109){32}"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Nt0PoToZEeeGOakBIi4NbA" id="(0.4375,0.8783269961977186)"/>
@@ -150,7 +150,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_UnIQ0ToZEeeGOakBIi4NbA"/>
     <styles xmi:type="notation:LineStyle" xmi:id="_UnI35DoZEeeGOakBIi4NbA"/>
-    <element xmi:type="uml:Message" href="SequenceDiagram_payment.uml#_Um7cgDoZEeeGOakBIi4NbA"/>
+    <element xmi:type="uml:Message" href="SequenceDiagram_Payment.uml#_Um7cgDoZEeeGOakBIi4NbA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UnIQ0joZEeeGOakBIi4NbA" points="[0, 0, 360, -27]$[-360, 102, 0, 75]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Unk8wDoZEeeGOakBIi4NbA" id="(0.0,0.8269961977186312){32}"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Unk8wToZEeeGOakBIi4NbA" id="(0.375,0.9123102866779089)"/>
@@ -164,7 +164,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_3et6wToZEeeGOakBIi4NbA"/>
     <styles xmi:type="notation:LineStyle" xmi:id="_3et6xzoZEeeGOakBIi4NbA"/>
-    <element xmi:type="uml:Message" href="SequenceDiagram_payment.uml#_3eiUkDoZEeeGOakBIi4NbA"/>
+    <element xmi:type="uml:Message" href="SequenceDiagram_Payment.uml#_3eiUkDoZEeeGOakBIi4NbA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3et6wjoZEeeGOakBIi4NbA" points="[0, 0, -7, 57]$[7, -57, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3fKmsDoZEeeGOakBIi4NbA" id="(1.0,0.3935361216730038)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3fLNwDoZEeeGOakBIi4NbA" id="(1.0,0.526615969581749)"/>
