@@ -21,7 +21,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_01LPgTFvEee656Y769IFTw" x="74" y="71" width="16" height="521"/>
         </children>
         <element xmi:type="uml:Lifeline" href="SequenceDiagram_1.uml#_EtXssDFvEee656Y769IFTw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EtdMQTFvEee656Y769IFTw" x="56" y="10" width="164" height="699"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EtdMQTFvEee656Y769IFTw" x="56" y="10" width="164" height="695"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_pQH38DFvEee656Y769IFTw" type="Lifeline_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_pQIfADFvEee656Y769IFTw" type="Lifeline_NameLabel"/>
@@ -34,7 +34,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KpAvQTFwEee656Y769IFTw" x="42" y="126" width="16" height="326"/>
         </children>
         <element xmi:type="uml:Lifeline" href="SequenceDiagram_1.uml#_pQFbsDFvEee656Y769IFTw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pQH38TFvEee656Y769IFTw" x="367" y="10" width="100" height="699"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pQH38TFvEee656Y769IFTw" x="367" y="10" width="100" height="695"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_ry8aADFvEee656Y769IFTw" type="Lifeline_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_ry8aAjFvEee656Y769IFTw" type="Lifeline_NameLabel"/>
@@ -51,7 +51,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hsmNYTF1Eee656Y769IFTw" x="42" y="264" width="16" height="132"/>
         </children>
         <element xmi:type="uml:Lifeline" href="SequenceDiagram_1.uml#_ry5WsDFvEee656Y769IFTw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ry8aATFvEee656Y769IFTw" x="612" y="10" width="100" height="699"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ry8aATFvEee656Y769IFTw" x="612" y="10" width="100" height="695"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_ZzTRoDSxEeeZEZz4PrsdYg" type="Comment_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_ZzUfwDSxEeeZEZz4PrsdYg" type="Comment_BodyLabel"/>
