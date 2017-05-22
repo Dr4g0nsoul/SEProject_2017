@@ -1,0 +1,32 @@
+Table Employee:
+	e_id: int <PK>
+	e_name: varchar(30)
+	e_surname: varchar(30)
+	e_mail: varchar(50) <unique>
+	e_password: varchar(256) //encrypted password stored
+	e_dateOfBirth: date
+
+Table Salary:
+	s_id: int <PK>
+	s_date: date
+	s_amount: int
+	e_id: int <FK> (References Employee)
+
+Table Timesheet:
+	
+
+Table Payment:
+
+Table Leave:
+
+Table :
+
+Table :
+
+Table :
+
+Table :
+
+Table :
+
+Table :
