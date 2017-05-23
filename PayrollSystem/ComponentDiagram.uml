@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ufTN0D-tEeeNtaaDyE8zmg" name="RootElement">
+  <packagedElement xmi:type="uml:Component" xmi:id="_7oNk0D-tEeeNtaaDyE8zmg" name="Employee">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_eERwYD-uEeeNtaaDyE8zmg" name="uses" client="_7oNk0D-tEeeNtaaDyE8zmg" supplier="_RTUmYD-uEeeNtaaDyE8zmg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_QF_3oD-uEeeNtaaDyE8zmg" name="Login"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_RTUmYD-uEeeNtaaDyE8zmg" name="SystemAccessType">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_0pRnUD-uEeeNtaaDyE8zmg" name="uses" client="_RTUmYD-uEeeNtaaDyE8zmg" supplier="_skTrUD-uEeeNtaaDyE8zmg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_2NwR0D-uEeeNtaaDyE8zmg" name="uses" client="_RTUmYD-uEeeNtaaDyE8zmg" supplier="_u7eXAD-uEeeNtaaDyE8zmg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_316icD-uEeeNtaaDyE8zmg" name="uses" client="_RTUmYD-uEeeNtaaDyE8zmg" supplier="_wGTLYD-uEeeNtaaDyE8zmg"/>
+    <realization xmi:type="uml:ComponentRealization" xmi:id="_mrxKoD-uEeeNtaaDyE8zmg" name="provides" client="_QF_3oD-uEeeNtaaDyE8zmg" supplier="_RTUmYD-uEeeNtaaDyE8zmg" realizingClassifier="_QF_3oD-uEeeNtaaDyE8zmg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_skTrUD-uEeeNtaaDyE8zmg" name="CMS">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_BBIU0D-vEeeNtaaDyE8zmg" name="uses" client="_skTrUD-uEeeNtaaDyE8zmg" supplier="_-1-r4D-uEeeNtaaDyE8zmg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_u7eXAD-uEeeNtaaDyE8zmg" name="WAS">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_C-I0ED-vEeeNtaaDyE8zmg" name="uses" client="_u7eXAD-uEeeNtaaDyE8zmg" supplier="_-1-r4D-uEeeNtaaDyE8zmg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_wGTLYD-uEeeNtaaDyE8zmg" name="EMS">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_FtTwED-vEeeNtaaDyE8zmg" name="uses" client="_wGTLYD-uEeeNtaaDyE8zmg" supplier="_-1-r4D-uEeeNtaaDyE8zmg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_-1-r4D-uEeeNtaaDyE8zmg" name="Database"/>
+</uml:Model>

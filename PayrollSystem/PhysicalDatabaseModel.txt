@@ -5,6 +5,7 @@ Table Employee:
 	e_mail: varchar(50) <unique>
 	e_password: varchar(256) //encrypted password stored
 	e_dateOfBirth: date
+	e_payment: int <FK> (References Payment)
 
 Table Salary:
 	s_id: int <PK>
@@ -13,20 +14,21 @@ Table Salary:
 	e_id: int <FK> (References Employee)
 
 Table Timesheet:
-	
+	t_id: int <PK>
+	t_name: varchar(30)
+	t_date: date
+	t_time: time
+	t_description: varchar(200)
 
 Table Payment:
+	p_id: int <PK>
+	p_ccnumber: int
+	p_expirationdate: date
 
 Table Leave:
-
-Table :
-
-Table :
-
-Table :
-
-Table :
-
-Table :
-
-Table :
+	l_id: int <PK>
+	l_descritption: varchar(200)
+	l_date: date
+	l_status: int (0=in process,1=approved, 2=not approved)
+	e_id: int <FK> (References Employee)
+	
