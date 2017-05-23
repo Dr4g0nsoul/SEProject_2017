@@ -1,4 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vjhHUDowEee1g483jT0J7A" name="RootElement">
-  <packagedElement xmi:type="uml:Node" xmi:id="_OeZEEDoxEee1g483jT0J7A" name="Server"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vjhHUDowEee1g483jT0J7A" name="RootElement">
+  <packagedElement xmi:type="uml:Node" xmi:id="_OeZEEDoxEee1g483jT0J7A" name="Server">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-8OaoD-qEeeWCZSssezHwg" name="db" type="_QW6BcDrMEeeeSa4-pfZeuQ" association="_-8JiID-qEeeWCZSssezHwg"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_TlmngD-tEeeWCZSssezHwg" name="PS System"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_4yLy4DrLEeeeSa4-pfZeuQ" name="CMS">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2zO6QD-qEeeWCZSssezHwg" name="server" type="_OeZEEDoxEee1g483jT0J7A" association="_2xq0AD-qEeeWCZSssezHwg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_8XtvIDrLEeeeSa4-pfZeuQ" name="WAS">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3374gD-qEeeWCZSssezHwg" name="server" type="_OeZEEDoxEee1g483jT0J7A" association="_3341MD-qEeeWCZSssezHwg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_QW6BcDrMEeeeSa4-pfZeuQ" name="DB">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_KLZBwD-rEeeWCZSssezHwg" name="MySql Server"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_Ei4kUDrNEeeeSa4-pfZeuQ" name="EMS">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5VliQT-qEeeWCZSssezHwg" name="server" type="_OeZEEDoxEee1g483jT0J7A" association="_5VjtED-qEeeWCZSssezHwg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_2xq0AD-qEeeWCZSssezHwg" memberEnd="_2zO6QD-qEeeWCZSssezHwg _2zRWgD-qEeeWCZSssezHwg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2xt3UD-qEeeWCZSssezHwg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2xueYD-qEeeWCZSssezHwg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2zRWgD-qEeeWCZSssezHwg" name="cms" type="_4yLy4DrLEeeeSa4-pfZeuQ" association="_2xq0AD-qEeeWCZSssezHwg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_3341MD-qEeeWCZSssezHwg" memberEnd="_3374gD-qEeeWCZSssezHwg _339GoD-qEeeWCZSssezHwg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_336qYD-qEeeWCZSssezHwg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_337RcD-qEeeWCZSssezHwg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_339GoD-qEeeWCZSssezHwg" name="was" type="_8XtvIDrLEeeeSa4-pfZeuQ" association="_3341MD-qEeeWCZSssezHwg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_5VjtED-qEeeWCZSssezHwg" memberEnd="_5VliQT-qEeeWCZSssezHwg _5VmJUD-qEeeWCZSssezHwg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Vk7MD-qEeeWCZSssezHwg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5VliQD-qEeeWCZSssezHwg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5VmJUD-qEeeWCZSssezHwg" name="ems" type="_Ei4kUDrNEeeeSa4-pfZeuQ" association="_5VjtED-qEeeWCZSssezHwg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_-8JiID-qEeeWCZSssezHwg" memberEnd="_-8OaoD-qEeeWCZSssezHwg _-8PBsD-qEeeWCZSssezHwg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-8MlcD-qEeeWCZSssezHwg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-8NzkD-qEeeWCZSssezHwg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-8PBsD-qEeeWCZSssezHwg" name="server" type="_OeZEEDoxEee1g483jT0J7A" association="_-8JiID-qEeeWCZSssezHwg"/>
+  </packagedElement>
 </uml:Model>
