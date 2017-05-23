@@ -69,6 +69,11 @@
     <element xmi:type="uml:Node" href="DeploymentDiagram.uml#_Ei4kUDrNEeeeSa4-pfZeuQ"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ei-q8TrNEeeeSa4-pfZeuQ" x="174" y="366"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_Dd5usD-uEeeWCZSssezHwg" type="Comment_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Dd8K8D-uEeeWCZSssezHwg" type="Comment_BodyLabel"/>
+    <element xmi:type="uml:Comment" href="DeploymentDiagram.uml#_DcQv8D-uEeeWCZSssezHwg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dd5usT-uEeeWCZSssezHwg" x="496" y="14" width="184" height="103"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_vn6fITowEee1g483jT0J7A" name="diagram_compatibility_version" stringValue="1.2.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_vn6fIjowEee1g483jT0J7A"/>
   <styles xmi:type="style:PapyrusViewStyle" xmi:id="_vn6fIzowEee1g483jT0J7A">

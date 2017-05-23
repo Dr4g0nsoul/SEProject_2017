@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vjhHUDowEee1g483jT0J7A" name="RootElement">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_DcQv8D-uEeeWCZSssezHwg">
+    <body>The PS system is running on the server. All components that are needed for the subsystems are implemented on the server. For example a tomcat server for the WAS system.</body>
+  </ownedComment>
   <packagedElement xmi:type="uml:Node" xmi:id="_OeZEEDoxEee1g483jT0J7A" name="Server">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_-8OaoD-qEeeWCZSssezHwg" name="db" type="_QW6BcDrMEeeeSa4-pfZeuQ" association="_-8JiID-qEeeWCZSssezHwg"/>
     <nestedClassifier xmi:type="uml:Artifact" xmi:id="_TlmngD-tEeeWCZSssezHwg" name="PS System"/>
