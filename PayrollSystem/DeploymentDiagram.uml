@@ -43,4 +43,31 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_-8PBsD-qEeeWCZSssezHwg" name="server" type="_OeZEEDoxEee1g483jT0J7A" association="_-8JiID-qEeeWCZSssezHwg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_qC2wUD-wEeeWCZSssezHwg" name="Contractual Employee">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BHVYkT-xEeeWCZSssezHwg" name="cms" type="_4yLy4DrLEeeeSa4-pfZeuQ" association="_BHUKcD-xEeeWCZSssezHwg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_28vM0D-wEeeWCZSssezHwg" name="Fulltime Employee">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CdCnQj-xEeeWCZSssezHwg" name="was" type="_8XtvIDrLEeeeSa4-pfZeuQ" association="_CdCAMD-xEeeWCZSssezHwg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_63cH0D-wEeeWCZSssezHwg" name="Human Resource Management Departement">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DJMioj-xEeeWCZSssezHwg" name="ems" type="_Ei4kUDrNEeeeSa4-pfZeuQ" association="_DJL7kD-xEeeWCZSssezHwg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_BHUKcD-xEeeWCZSssezHwg" memberEnd="_BHVYkT-xEeeWCZSssezHwg _BHV_oD-xEeeWCZSssezHwg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BHUxgD-xEeeWCZSssezHwg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BHVYkD-xEeeWCZSssezHwg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BHV_oD-xEeeWCZSssezHwg" name="contractual employee" type="_qC2wUD-wEeeWCZSssezHwg" association="_BHUKcD-xEeeWCZSssezHwg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_CdCAMD-xEeeWCZSssezHwg" memberEnd="_CdCnQj-xEeeWCZSssezHwg _CdDOUD-xEeeWCZSssezHwg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CdCnQD-xEeeWCZSssezHwg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CdCnQT-xEeeWCZSssezHwg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CdDOUD-xEeeWCZSssezHwg" name="fulltime employee" type="_28vM0D-wEeeWCZSssezHwg" association="_CdCAMD-xEeeWCZSssezHwg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_DJL7kD-xEeeWCZSssezHwg" memberEnd="_DJMioj-xEeeWCZSssezHwg _DJNJsD-xEeeWCZSssezHwg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DJMioD-xEeeWCZSssezHwg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DJMioT-xEeeWCZSssezHwg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DJNJsD-xEeeWCZSssezHwg" name="management employee" type="_63cH0D-wEeeWCZSssezHwg" association="_DJL7kD-xEeeWCZSssezHwg"/>
+  </packagedElement>
 </uml:Model>
